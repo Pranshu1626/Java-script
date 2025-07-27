@@ -1,0 +1,26 @@
+console.log([
+    6>4,
+    4<6,
+    4<=6,
+    6>=4,
+    6==4,
+    6!=4
+])
+console.log([
+    "4"<6,
+    "04"<6,
+])
+console.log([
+    null>0,      //null is undefined but when ">"this symbol is used it gets converted to 0
+    null==0,
+    null>=0
+])
+console.log([
+    undefined>0,
+    undefined==0,
+    undefined>=0,
+])
+console.log([
+    "2"==2,
+    "2"===2,
+])
